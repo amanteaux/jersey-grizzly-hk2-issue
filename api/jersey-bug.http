@@ -1,0 +1,14 @@
+# Response ok, but exception is thrown
+GET {{BASE_URL}}/base/helloworld/sample-response
+Accept: */*
+Custom-Code: custom-code-value
+
+###
+
+# No response
+POST {{BASE_URL}}/base/helloworld/no-answer
+Accept: */*
+Custom-Code: custom-code-value
+
+###
+
